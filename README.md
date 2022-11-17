@@ -1,4 +1,4 @@
-# [Phicomm K3 OpenWrt Firmware](https://github.com/393435992/K3-OpenWrt/releases)
+# 4折腾着玩的,别下,别刷,刷坏不负责
 
 ### Using [Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt) By  [**P3TERX**](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
   -  项目可以随便拷贝,毕竟Openwrt固件都是使用[P3TERX](https://p3terx.com/archives/build-openwrt-with-github-actions.html)的脚本，本人只是编译一下，没有技术
