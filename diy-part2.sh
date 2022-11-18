@@ -1,5 +1,5 @@
 #!/bin/bash
-#
+# 改ip,改名字
 # Copyright (c) 2019-2020 P3TERX <https://p3terx.com>
 #
 # This is free software, licensed under the MIT License.
