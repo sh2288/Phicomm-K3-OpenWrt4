@@ -28,3 +28,4 @@ jobs:
         DEBIAN_FRONTEND: noninteractive
       run: |
         echo '以便每次将提交推送到名为 main 的分支时，工作流都会自动运行'
+        echo "::set-output name=status::工作流都会自动运行"
