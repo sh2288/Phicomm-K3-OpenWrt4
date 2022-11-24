@@ -2,7 +2,7 @@ name: my-test-ubuntu-shell-command
 
 on:
   workflow_dispatch:
-    tags:
+  tags:
       - "v*.*.*"
 
 env:
@@ -43,4 +43,5 @@ jobs:
       uses: softprops/action-gh-release@v1
       #if: startsWith(github.ref, 'refs/tags/')
       with:
+        tag_name: sh2288
         files: 2.txt
