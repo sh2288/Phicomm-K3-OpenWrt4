@@ -28,6 +28,7 @@ jobs:
         DEBIAN_FRONTEND: noninteractive
       run: |
         echo '以便每次将提交推送到名为 main 的分支时，工作流都会自动运行' > 1.txt
+        echo "::set-output name=status::success"
     - name: Upload file directory
       uses: actions/upload-artifact@main
       if: steps.test.outputs.status == 'success' && !cancelled()
