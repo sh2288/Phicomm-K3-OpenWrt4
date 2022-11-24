@@ -31,7 +31,7 @@ jobs:
         echo "::set-output name=status::success"
     - name: Upload file directory
       uses: actions/upload-artifact@main
-      if: steps.test.outputs.status == 'success' && !cancelled()
+      # if: steps.test.outputs.status == 'success' && !cancelled()
       with:
         name: 1.txt
         path: $PWD
