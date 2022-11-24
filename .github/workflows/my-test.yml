@@ -2,8 +2,7 @@ name: my-test-ubuntu-shell-command
 
 on:
   workflow_dispatch:
-  tags:
-      - "v*.*.*"
+
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
