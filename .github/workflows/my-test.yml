@@ -36,4 +36,4 @@ jobs:
       if: steps.test.outputs.status == 'success' && !cancelled()
       with:
         name: 1.txt
-        path: $PWD
+        # path: $PWD
