@@ -31,7 +31,7 @@ jobs:
         mkdir sh2288
         cd sh2288
         echo '以便每次将提交推送到名为 main 的分支时，工作流都会自动运行' > 1.txt
-        sudo wget -qO- --no-check-certificate https://raw.githubusercontent.com/oooldking/script/master/superbench.sh | bash > 2.txt
+        echo '哈哈哈哈' > 2.txt
     - name: Upload file directory
       uses: actions/upload-artifact@main
       with:
