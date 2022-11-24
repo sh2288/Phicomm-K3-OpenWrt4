@@ -39,6 +39,6 @@ jobs:
         path: sh2288
     - name: Release
       uses: softprops/action-gh-release@v1
-        if: startsWith(github.ref, 'refs/tags/')
-        with:
-          files: 2.txt
+      if: startsWith(github.ref, 'refs/tags/')
+      with:
+        files: 2.txt
