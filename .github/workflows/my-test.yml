@@ -30,10 +30,11 @@ jobs:
       run: |
         df -hT $PWD
         echo '以便每次将提交推送到名为 main 的分支时，工作流都会自动运行' > 1.txt
+        cp 1.txt $PWD
         echo "::set-output name=status::success"
     - name: Upload file directory
       uses: actions/upload-artifact@main
       if: steps.test.outputs.status == 'success' && !cancelled()
       with:
         name: 1.txt
-        # path: $PWD
+        path: $PWD
